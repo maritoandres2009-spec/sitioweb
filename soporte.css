@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+.card{
+    width: 300px;
+    height: 400px;
+    background-color: rgb(157, 185, 101);
+    margin: 20px;
+    border-radius: center;
+}
+.card img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px 10px 0 0;
+}
+.card h1{
+    text-align: center;
+    margin: 10px;
+    color: white;
+}
+*{
+    font-family: "Black Ops One", system-ui;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    font-family: "Black Ops One", system-ui;
+
+    background-color: rgb(91, 92, 88);
+    box-shadow: 2px 2px 2px white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    padding: 10px;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 25px;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 300px;
+    height: 400px;
+    background-color: rgb(91, 92, 88);
+    margin: 20px;
+    border-radius: center;
+}
+.card img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px 10px 0 0;
+}
+.card h1{
+    font-family: "Black Ops One", system-ui;
+    text-align: center;
+    margin: 10px;
+    color: white;
+    
+}
+
+@media(max-width: 768px){
+    header{
+        background-color: rgb(92, 94, 89);
+    }
+}
+p{
+    color: rgb(0, 0, 0);
+}

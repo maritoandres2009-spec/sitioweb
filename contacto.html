@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Cascos</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="contacto.html">Cascos</a>
+            <a href="soporte.html">Soporte</a>
+            <div id="cart-icon">
+            🛒 Mi Carrito <span id="cart-count">0</span>
+        </div>
+        </nav>
+    </header>
+    <main>
+        <section id="productos">
+            <h2>Colección 2026</h2>
+        <div class="card">
+                <div class="card-titulo">
+                    <h1>KTM </h1>
+                </div>
+                <div class="card-img">
+                    <img src="CASCO4-removebg-preview.png" alt="">
+                </div>
+                <div class="card-info">
+                    <p>Casco FOX</p>
+                    <p>$45.000</p>
+                    <button class="add-to-cart" data-id="1" data-name="Campera Red Bull" data-price="120">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-titulo">
+                    <h1>Honda</h1>
+                </div>
+                <div class="card-img">
+                    <img src="CASCO3-removebg-preview.png" alt="">
+                </div>
+                <div class="card-info">
+                    <p>Casco IXS</p>
+                    <p>$35.000</p>
+                    <button class="add-to-cart" data-id="2" data-name="Campera Red Bull" data-price="120">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-titulo"></div>
+                    <h1>Motomel</h1>
+                <div class="card-img">
+                    <img src="CASCO1-removebg-preview.png" alt="">
+                </div>
+                <div class="card-info">
+                    <p>RS1</p>
+                    <p>$30.000</p>
+                    <button class="add-to-cart" data-id="3" data-name="Campera Red Bull" data-price="120">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-titulo">
+                    <h1>Kawasaki</h1>
+                </div>
+                <div class="card-img">
+                    <img src="CASMT-removebg-preview.png" alt="">
+                </div>
+                <div class="card-info">
+                    <p>Casco MT</p>
+                    <p>$40.000</p>
+                    <button class="add-to-cart" data-id="4" data-name="Campera Red Bull" data-price="120">Añadir al carrito</button>
+                </div>
+            </div>
+            <section>
+        </div> 
+        <!-- Sidebar del carrito -->
+        <aside id="carrito" class="oculto">
+            <div class="carrito-header">
+                <h2>Tu Carrito</h2>
+                <button id="cerrar-carrito">✕</button>
+            </div>
+            <ul id="lista-carrito">
+                <!-- Los items se renderizan acá por JS -->
+            </ul>
+            <div class="carrito-footer">
+                <p>Total: $<span id="total-precio">0.00</span></p>
+                <button id="checkout">Finalizar Compra</button>
+            </div>
+        </aside>
+        
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
